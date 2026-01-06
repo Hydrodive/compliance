@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+
+    <style>
+      :root {
+        --primary: #2563eb;
+        --bg: #f9fafb;
+        --card: #ffffff;
+        --text: #1f2937;
+        --muted: #6b7280;
+      }
+
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.6;
+      }
+
+      .container {
+        max-width: 700px;
+        margin: 0 auto;
+        padding: 24px;
+      }
+
+      .card {
+        background: var(--card);
+        border-radius: 12px;
+        padding: 32px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+      }
+
+      h1 {
+        font-size: 2rem;
+        margin-bottom: 12px;
+      }
+
+      p {
+        margin-bottom: 16px;
+      }
+
+      .contact-box {
+        margin-top: 24px;
+        padding: 16px;
+        border-radius: 8px;
+        background: #f1f5f9;
+      }
+
+      .label {
+        font-weight: 600;
+        margin-top: 12px;
+      }
+
+      a {
+        color: var(--primary);
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      footer {
+        margin-top: 40px;
+        text-align: center;
+        font-size: 0.9rem;
+        color: var(--muted);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <h1>Contact Us</h1>
+
+        <p>
+          If you have questions, feedback, or need support regarding the app,
+          feel free to contact us using the information below.
+        </p>
+
+        <div class="contact-box">
+          <p class="label">Email</p>
+          <p>
+            <a href="mailto:info@myhydrodive.com"> info@myhydrodive.com </a>
+          </p>
+
+          <p class="label">Support Hours</p>
+          <p>
+            Monday – Friday<br />
+            9:00 AM – 5:00 PM
+          </p>
+        </div>
+
+        <p style="margin-top: 24px">
+          We do our best to respond as quickly as possible.
+        </p>
+
+        <footer>© 2026 Dive App</footer>
+      </div>
+    </div>
+  </body>
+</html>
